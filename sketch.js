@@ -51,7 +51,7 @@ function setup(){
 
     // Code for ball
     var ball_options ={
-        // isStatic : false,
+         isStatic : false,
         // isStatic: false
         // isStatic = false,
         // isStatic : true,
@@ -65,9 +65,8 @@ function setup(){
     //                      ball_options);
     // World.add(myworld,ball);
 
-    // ball = Bodies.circle(590,100,20,
-    //                      ball_options);
-    // World.add(myworld,ball);
+     ball = Bodies.circle(590,100,20,ball_options);
+     World.add(myworld,ball);
 
     // ball = Bodies(590,100,20);
     // World.add(myworld,ball);
